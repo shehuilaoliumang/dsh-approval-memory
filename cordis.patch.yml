@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh-approval-memory
+      name: '@local/dsh-approval-memory'
+      config:
+        rememberAcrossSessions: false
+        storageDir: ''

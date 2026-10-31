@@ -1,0 +1,25 @@
+{
+  "name": "@local/dsh-approval-memory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Remembers repeated sandbox-escalation approvals per session (default) or per workspace (opt-in), so the same operation only asks once.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/en.json",
+    "locale/zh.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

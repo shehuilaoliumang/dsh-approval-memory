@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Approval Memory",
+    "description": "Remembers repeated sandbox-escalation approvals per session (default) or per workspace, so the same operation only asks once."
+  }
+}
